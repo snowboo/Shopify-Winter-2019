@@ -1,0 +1,104 @@
+{
+  "next_id": {
+    "shops": 2,
+    "products": 6,
+    "orders": 2,
+    "line_items": 6
+  },
+  "shops": [
+    {
+      "id": 0,
+      "name": "The Cheese Shop"
+    },
+    {
+      "id": 1,
+      "name": "Tina's Mystery Shop"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "shop_id": 0,
+      "name": "Cheddar 1 1lbs",
+      "price": 6.5
+    },
+    {
+      "id": 1,
+      "shop_id": 0,
+      "name": "Brie 1 1lbs",
+      "price": 4.5
+    },
+    {
+      "id": 2,
+      "shop_id": 0,
+      "name": "Swiss 1 1lbs",
+      "price": 5.5
+    },
+    {
+      "id": 3,
+      "shop_id": 1,
+      "name": "X",
+      "price": 200
+    },
+    {
+      "id": 4,
+      "shop_id": 1,
+      "name": "Y",
+      "price": 2000
+    },
+    {
+      "id": 5,
+      "shop_id": 1,
+      "name": "Z",
+      "price": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 0,
+      "shop_id": 0
+    },
+    {
+      "id": 1,
+      "shop_id": 0
+    }
+  ],
+  "line_items": [
+    {
+      "id": 0,
+      "product_id": 1,
+      "order_id": 0,
+      "amount": 3
+    },
+    {
+      "id": 1,
+      "product_id": 2,
+      "order_id": 0,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "product_id": 0,
+      "order_id": 0,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "order_id": 1,
+      "amount": 3
+    },
+    {
+      "id": 4,
+      "product_id": 2,
+      "order_id": 1,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "product_id": 0,
+      "order_id": 1,
+      "amount": 5
+    }
+  ]
+}
